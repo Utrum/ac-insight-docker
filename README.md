@@ -12,7 +12,7 @@ Docker CE.
 cd docker
 docker build -t kmdplatform/insight .
 ```
-3. Start the container:
+3. Start the container specifying your coin symbol:
 ```
 cd ..
 ./insight-start.sh OOT
