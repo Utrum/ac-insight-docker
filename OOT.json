@@ -1,0 +1,33 @@
+{
+    "network": "mainnet",
+    "port": 3001,
+    "services": [
+        "bitcoind",
+        "insight-api-komodo",
+        "insight-ui-komodo",
+        "web"
+    ],
+    "servicesConfig": {
+        "bitcoind": {
+            "connect": [
+                {
+                    "rpchost": "127.0.0.1",
+                    "rpcport": 12467,
+                    "rpcuser": "my_rpcuser",
+                    "rpcpassword": "my_rpcpassword",
+                    "zmqpubrawtx": "tcp://127.0.0.1:8332"
+                }
+            ]
+        },
+        "insight-api-komodo": {
+            "rateLimiterOptions": {
+                "whitelist": [
+                    "::ffff:127.0.0.1",
+                    "127.0.0.1"
+                ],
+                "whitelistLimit": 500000,
+                "whitelistInterval": 3600000
+            }
+        }
+    }
+}
