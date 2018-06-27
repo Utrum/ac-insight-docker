@@ -19,4 +19,4 @@ cd ..
 ```
 4. Run your daemon start script (insight parameters are defined here): `./oot-start-daemon.sh`
 5. Wait until it's fully synchronized.
-6. Personalize your UI repo. 
+6. Customize your UI repo. 
