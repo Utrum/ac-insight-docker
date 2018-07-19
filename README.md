@@ -6,7 +6,7 @@ The files in this directory are an example of a quick start to work with the Doc
 Docker CE.
 
 #### Steps:
-1. Clone this repo: https://github.com/DeckerSU/insight-ui-komodo changing the name from "insight-ui-komodo" to something like "insight-ui-oot" (where "oot" is your coin ticker symbol all lowercase).
+1. Clone this repo: https://github.com/Utrum/ac-insight-docker changing the name from "insight-ui-komodo" to something like "insight-ui-oot" (where "oot" is your coin ticker symbol all lowercase).
 2. Build the docker image: 
 ```
 cd docker
