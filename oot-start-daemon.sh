@@ -28,7 +28,7 @@ docker run -d --rm --name $AC_NAME -ti \
   -spentindex=1 \
   -uacomment='bitcore' \
   -showmetrics=0 \
-  -zmqpubrawtx='tcp://0.0.0.0:8332' \
-  -zmqpubhashblock='tcp://0.0.0.0:8332' \
+  -zmqpubrawtx='tcp://127.0.0.1:8332' \
+  -zmqpubhashblock='tcp://127.0.0.1:8332' \
   -reindex
 
