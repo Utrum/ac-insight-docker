@@ -7,6 +7,7 @@ Docker CE.
 
 #### Steps:
 1. Clone this repo: https://github.com/DeckerSU/insight-ui-komodo changing the name from "insight-ui-komodo" to something like "insight-ui-oot" (where "oot" is your coin ticker symbol all lowercase).
+
 We already did this for OOT: https://github.com/Utrum/insight-ui-oot
 
 2. Build the docker image: 
