@@ -7,6 +7,8 @@ Docker CE.
 
 #### Steps:
 1. Clone this repo: https://github.com/DeckerSU/insight-ui-komodo changing the name from "insight-ui-komodo" to something like "insight-ui-oot" (where "oot" is your coin ticker symbol all lowercase).
+We already did this for OOT: https://github.com/Utrum/insight-ui-oot
+
 2. Build the docker image: 
 ```
 cd docker
@@ -17,6 +19,6 @@ docker build -t kmdplatform/insight .
 cd ..
 ./insight-start.sh OOT
 ```
-4. Run your daemon start script (insight parameters are defined here): `./oot-start-daemon.sh`
+4. Run your daemon start script (credentials used by insight are defined here): `./oot-start-daemon.sh` (we made this one for OOT.)
 5. Wait until it's fully synchronized.
 6. Customize your UI repo. 
