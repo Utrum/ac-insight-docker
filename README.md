@@ -19,6 +19,10 @@ docker build -t kmdplatform/insight .
 cd ..
 ./insight-start.sh OOT
 ```
-4. Run your daemon start script (credentials used by insight are defined here): `./oot-start-daemon.sh` (we made this one for OOT.)
-5. Wait until it's fully synchronized.
-6. Customize your UI repo. 
+4. Customize your UI repo. Restart the container to see the changes.
+
+
+The following steps apply only if you don't have already a daemon running:
+
+5. Run your daemon start script (credentials used by insight are defined here): `./oot-start-daemon.sh` (we made this one for OOT.)
+6. Wait until it's fully synchronized. 
