@@ -2,6 +2,7 @@
 
 AC_NAME="OOT"
 AC_SUPPLY=216000000
+SAPLING_ACTIVATION_HEIGHT=5000000
 
 USER=my_rpcuser
 PASSWD=my_rpcpassword
@@ -19,7 +20,7 @@ docker run -d --rm --name $AC_NAME -ti \
   -whitelist=127.0.0.1 \
   -ac_name=$AC_NAME \
   -ac_supply=$AC_SUPPLY \
-  -ac_sapling=5000000 \
+  -ac_sapling=$SAPLING_ACTIVATION_HEIGHT \
   -addnode=$SEEDIP \
   -printtoconsole=1 \
   -server=1 \
